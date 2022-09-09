@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EBD9D1"
+    android:background="#9ACCED"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:paddingTop="25dp"
             android:text="REGISTRO"
+            android:layout_gravity="center_horizontal"
             android:textColor="@color/black"
             android:textSize="50dp" />
 
@@ -131,17 +132,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="80dp"
             android:text="Acepto Terminos y Condiciones"
             android:textSize="20dp" />
 
         <Button
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
-            android:backgroundTint="@android:color/holo_green_dark"
+            android:paddingHorizontal="30dp"
+            android:backgroundTint="#EAA94A"
             android:text="Registrar"
             android:textColor="@color/black"
             android:textSize="30dp" />
