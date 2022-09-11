@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="X"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
             android:paddingTop="25dp"
             android:text="REGISTRO"
             android:textColor="@color/black"
-            android:textSize="50dp" />
+            android:textSize="50sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,7 +72,6 @@
                 android:textSize="20sp" />
 
             <RadioGroup
-
                 android:id="@+id/genero"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -154,7 +153,7 @@
             android:paddingHorizontal="30dp"
             android:text="Registrar"
             android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
     </LinearLayout>
 </ScrollView>

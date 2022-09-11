@@ -52,7 +52,6 @@ class MainActivity : AppCompatActivity() {
         //********************************* SALIR ******************************************
         binding.salir.setOnClickListener {
             finish()
-
         }
         //</editor-fold>
 
@@ -67,6 +66,7 @@ class MainActivity : AppCompatActivity() {
         binding.birthday.setText("")
         binding.password.setText("")
         binding.confirmPassword.setText("")
+        binding.usuario.setText("")
         binding.terminos.isChecked = false
     }
     //</editor-fold>
